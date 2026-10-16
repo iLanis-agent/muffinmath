@@ -1,0 +1,172 @@
+[
+  {
+    "fn": "batterTruth",
+    "args": [
+      2,
+      0.75
+    ],
+    "result": "2.0 cups of flour carrying 0.8 cups of sugar reads 0.4 cups of sugar per cup of flour, a true muffin honestly."
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      2,
+      0.5
+    ],
+    "result": "2.0 cups of flour carrying 0.5 cups of sugar reads 0.3 cups of sugar per cup of flour, a true muffin honestly."
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      2,
+      0.4
+    ],
+    "result": "2.0 cups of flour carrying 0.4 cups of sugar reads 0.2 cups of sugar per cup of flour, lean and breakfast-leaning honestly."
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      2,
+      1.25
+    ],
+    "result": "2.0 cups of flour carrying 1.3 cups of sugar reads 0.6 cups of sugar per cup of flour, cupcake territory wearing a muffin paper honestly."
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      1,
+      0.5
+    ],
+    "result": "1.0 cups of flour carrying 0.5 cups of sugar reads 0.5 cups of sugar per cup of flour, a true muffin honestly."
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      3,
+      1.8
+    ],
+    "result": "3.0 cups of flour carrying 1.8 cups of sugar reads 0.6 cups of sugar per cup of flour, cupcake territory wearing a muffin paper honestly."
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      0,
+      1
+    ],
+    "error": "the flour must be above zero"
+  },
+  {
+    "fn": "batterTruth",
+    "args": [
+      2,
+      0
+    ],
+    "error": "the sugar must be above zero"
+  },
+  {
+    "fn": "stirTruth",
+    "args": [
+      12
+    ],
+    "result": "12 strokes stop at just-combined, tender crumb honestly."
+  },
+  {
+    "fn": "stirTruth",
+    "args": [
+      1
+    ],
+    "result": "1 stroke stops at just-combined, tender crumb honestly."
+  },
+  {
+    "fn": "stirTruth",
+    "args": [
+      16
+    ],
+    "result": "16 strokes work a little past just-combined, still tender honestly."
+  },
+  {
+    "fn": "stirTruth",
+    "args": [
+      20
+    ],
+    "result": "20 strokes work a little past just-combined, still tender honestly."
+  },
+  {
+    "fn": "stirTruth",
+    "args": [
+      24
+    ],
+    "result": "24 strokes work the batter to tunnels and peaky tops honestly."
+  },
+  {
+    "fn": "stirTruth",
+    "args": [
+      0
+    ],
+    "error": "the stroke count must be above zero"
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      4,
+      12
+    ],
+    "result": "4.0 cups of batter covers 12 wells exactly, not a spoonful left honestly."
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      4.5,
+      12
+    ],
+    "result": "4.5 cups of batter covers 12 wells with 0.5 cups to spare honestly."
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      3.5,
+      12
+    ],
+    "result": "3.5 cups of batter comes up 0.5 cups short of 12 wells honestly."
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      1,
+      1
+    ],
+    "result": "1.0 cups of batter covers 1 well with 0.7 cups to spare honestly."
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      0.3,
+      1
+    ],
+    "result": "0.3 cups of batter covers 1 well exactly, not a spoonful left honestly."
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      2,
+      8
+    ],
+    "result": "2.0 cups of batter comes up 0.7 cups short of 8 wells honestly."
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      0,
+      12
+    ],
+    "error": "the batter must be above zero"
+  },
+  {
+    "fn": "scoopTruth",
+    "args": [
+      4,
+      0
+    ],
+    "error": "the well count must be above zero"
+  }
+]
